@@ -1,5 +1,7 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+  "sources": ["src/mmss_counter.v",
+   "src/sevenseg_decode.v", 
+   "src/lab3_mmss_clock.v"],
+  "testbench": "sim/tb_mmss_counter.sv",
+  "simulation_top": "tb_mmss_counter"
 }
